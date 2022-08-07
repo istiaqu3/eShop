@@ -1,0 +1,19 @@
+.eshop-bg-warning {
+    background-color: #FEEAE9;
+}
+
+.eshop-btn-warning {
+    background-image: linear-gradient(-45deg, rgb(255, 88, 155), rgb(255, 19, 111));
+}
+
+.bg-orchid {
+    background-color: orchid;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-blue {
+    background-color: blue;
+}

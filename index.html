@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eShop</title>
+    <!-- Bootstrap Stylesheet -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet  -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light mb-5 container">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img style="width: 40px;" src="images/voltage.png" alt="">
+                    eShop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#main">Home</a>
+                        </li>
+                        <!-- <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">Contact us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <section class="container" id="main">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <div class="row d-flex align-items-center eshop-eshop-bg-warning p-3">
+                            <div class="col-lg-7">
+                                <h1>Cool Dude Headphone</h1>
+                                <p>The best headphone in the world. Not evereone can afford it cause limited edition!
+                                </p>
+                                <h1>$400</h1>
+                                <button class="btn eshop-btn-warning">Buy Now</button>
+
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="row d-flex align-items-center eshop-bg-warning p-3">
+                            <div class="col-lg-7">
+                                <h1>Mi LED TV 4A PRO 32</h1>
+                                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                    officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud
+                                    amet.</p>
+                                <h1>$1400</h1>
+                                <button class="btn eshop-btn-warning">Buy Now</button>
+
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="row d-flex align-items-center eshop-bg-warning p-3 ">
+                            <div class="col-lg-7">
+                                <h1>X-box for Ultimate Gaming</h1>
+                                <p>The best way to enjoy video games. The best brand in market!
+                                </p>
+                                <h1>$400</h1>
+                                <button class="btn eshop-btn-warning">Buy Now</button>
+
+                            </div>
+                            <div class="col-lg-5">
+                                <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+    </header>
+
+    <main>
+        <!------------ Categories  --------------->
+
+        <section class="container my-5" id="products">
+            <div class="text-center">
+                <div class="row g-4">
+                    <div class="col-lg-4">
+                        <div class="p-3 border bg-orange d-flex align-items-center justify-content-between rounded">
+                            <h1 class="white-text ">Watch</h1>
+                            <img src="images/categories/watch.png" alt="" style="height:90px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-3 border bg-orchid d-flex align-items-center justify-content-between rounded">
+                            <h1 class="white-text ">Bag</h1>
+                            <img src="images/categories/bag.png" alt="" style="height:90px;">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-3 border bg-blue d-flex align-items-center justify-content-between rounded">
+                            <h1 class="white-text ">Shoes</h1>
+                            <img src="images/categories/shoes.png" alt="" style="height:90px;">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!------------ Shoes  --------------->
+
+        <section class="container">
+            <h1 class="mb-3">Shoes</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Supply 350</h5>
+                            <p class="card-text">Adidas Yeezy is a fashion collaboration between German sportswear
+                                company Adidas and American designer, rapper, entrepreneur and personality Kanye West.
+                            </p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Nike 360</h5>
+                            <p class="card-text">The Nike CTR360 is a line of association football boots manufactured by
+                                Nike. Nike CTR360 Maestri. CTR360 Maestri II.JPG. Nike CTR360 Maestri II.</p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Airmax</h5>
+                            <p class="card-text">Nike Air Max is a line of shoes produced by Nike, Inc., with the first
+                                model released in 1987. Air Max shoes are identified by their midsoles incorporating
+                                flexible urethane pouches filled with pressurized gas, visible from the exterior of the
+                                shoe and intended to provide cushioning to the underfoot..</p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------ Bags  --------------->
+
+        <section class="container my-5">
+            <h1 class="mb-3">Bags</h1>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Ison Backpack</h5>
+                            <p class="card-text">Adidas Yeezy is a fashion collaboration between German sportswear
+                                company Adidas and American designer, rapper, entrepreneur and personality Kanye West.
+                            </p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Biaowang Backpack</h5>
+                            <p class="card-text">The Nike CTR360 is a line of association football boots manufactured by
+                                Nike. Nike CTR360 Maestri. CTR360 Maestri II.JPG. Nike CTR360 Maestri II.</p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow border-0">
+                        <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dxyizu WS54 Smart</h5>
+                            <p class="card-text">Nike Air Max is a line of shoes produced by Nike, Inc., with the first
+                                model released in 1987. Air Max shoes are identified by their midsoles incorporating
+                                flexible urethane pouches filled with pressurized gas, visible from the exterior of the
+                                shoe and intended to provide cushioning to the underfoot..</p>
+                        </div>
+                        <h5 class="ms-3">$420</h5>
+                        <div class="m-3">
+                            <div class="btn eshop-btn-warning">Buy Now</div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!------------ Subscribe  --------------->
+
+        <section style="height:300px;"
+            class="container d-flex justify-content-center align-items-center eshop-bg-warning rounded" id="subscribe">
+            <div>
+                <h1>LET'S STAY IN TOUCH</h1>
+                <p>
+                    Get updates on sales specials and more
+                </p>
+                <input type="email" placeholder="Enter your Email">
+                <button class="btn btn-danger">Send</button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="mt-5">
+        <p class="text-center"><small>Copyright © 2022 blahblah.com Dhaka</small></p>
+
+    </footer>
+
+    <!-- Booststrap Js  -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
